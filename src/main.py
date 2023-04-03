@@ -54,8 +54,9 @@ for i in reversed(instData):
                 if j.text not in cirNames:
                     cn = circuitName()
                     cn.name = j.text
+                    cirNames.update({j.text:cn})
                 else:
-                    cn = cirNames["j.text"]
+                    cn = cirNames[j.text]
                 li.circuitName = cn
             elif j.tag == "Circuit_Number" and j.text != None:
                 cirNumb = int(j.text)
