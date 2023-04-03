@@ -117,6 +117,20 @@ def dump(prefix="") -> None:
     for k, v in mults.items():
         dumpMult(v, prefix=prefix)
 
+
+def runLoadCalc():
+    phases = {
+        "x":0,
+        "y":0,
+        "z":0
+    }
+    # put all circuits into list | remove from mult class, but keep mult parent in circuit
+    # sort list based on load
+    # get largest loaded circuit
+    # get available phases from mult
+    # get smallest loded availabe phase
+    # assign circuit to mult, add load to phase
+
 instData = root[1]
 for i in reversed(instData):
     if i.tag[:3] == "UID":
