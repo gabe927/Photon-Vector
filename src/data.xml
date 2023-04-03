@@ -168,8 +168,8 @@
       <Template2></Template2>
       <Template></Template>
       <Color></Color>
-      <Circuit_Name></Circuit_Name>
-      <Circuit_Number></Circuit_Number>
+      <Circuit_Name>MLA</Circuit_Name>
+      <Circuit_Number>1</Circuit_Number>
       <Dimmer></Dimmer>
       <Channel></Channel>
       <Position>DS Truss</Position>
