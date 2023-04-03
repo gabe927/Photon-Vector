@@ -76,6 +76,11 @@ for i in reversed(instData):
 print(insts)
 print("****____****____****____****")
 print(cirNames)
+# Key sort
+cirNames = dict(sorted(cirNames.items()))
+# Value sort
+# cirNames = dict(sorted(cirNames(), key=lambda item: item[1]))
+print(cirNames)
 print("****____****____****____****")
 for i in instData:
     print(i.tag)
