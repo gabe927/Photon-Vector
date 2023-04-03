@@ -59,6 +59,8 @@ for i in reversed(instData):
                 li.circuitName = cn
             elif j.tag == "Circuit_Number" and j.text != None:
                 cirNumb = int(j.text)
+                if li.circuitName == None:
+                    continue
                 circuit = li.circuitName.circuits[cirNumb]
                 if circuit == None:
                     circuit = circuitNumber()
