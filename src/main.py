@@ -66,6 +66,22 @@ def addLiToCircuit(li: lightInst, c: circuit) -> None:
     li.circuit = c
     c.lightInsts.append(li)
 
+def dumpCircuit(c: circuit, prefix=""):
+    print(prefix + "Circuit " + str(c.number))
+    for i in c.lightInsts:
+        print(prefix + "|   " + i.UID)
+
+def dumpMult(m: mult, prefix="") -> None:
+    print(prefix + "Mult: " + m.name)
+    for k, v in m.circuits.items():
+        if v != None:
+            dumpCircuit(v, prefix=prefix + "|   ")
+
+def dump(prefix="") -> None:
+    print("---Mult/Circuit Dump---")
+    for k, v in mults.items():
+        dumpMult(v, prefix=prefix)
+
 instData = root[1]
 for i in reversed(instData):
     if i.tag[:3] == "UID":
@@ -96,3 +112,5 @@ print(mults)
 print("****____****____****____****")
 for i in instData:
     print(i.tag)
+
+dump()
