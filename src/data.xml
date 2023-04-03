@@ -1728,8 +1728,8 @@
       <Template2></Template2>
       <Template></Template>
       <Color></Color>
-      <Circuit_Name></Circuit_Name>
-      <Circuit_Number></Circuit_Number>
+      <Circuit_Name>MLA</Circuit_Name>
+      <Circuit_Number>2</Circuit_Number>
       <Dimmer></Dimmer>
       <Channel></Channel>
       <Position>MS Truss</Position>
@@ -1767,8 +1767,8 @@
       <Template2></Template2>
       <Template></Template>
       <Color></Color>
-      <Circuit_Name></Circuit_Name>
-      <Circuit_Number></Circuit_Number>
+      <Circuit_Name>MLB</Circuit_Name>
+      <Circuit_Number>5</Circuit_Number>
       <Dimmer></Dimmer>
       <Channel></Channel>
       <Position>MS Truss</Position>
@@ -1806,8 +1806,8 @@
       <Template2></Template2>
       <Template></Template>
       <Color></Color>
-      <Circuit_Name></Circuit_Name>
-      <Circuit_Number></Circuit_Number>
+      <Circuit_Name>MLB</Circuit_Name>
+      <Circuit_Number>1</Circuit_Number>
       <Dimmer></Dimmer>
       <Channel></Channel>
       <Position>MS Truss</Position>
@@ -1845,8 +1845,8 @@
       <Template2></Template2>
       <Template></Template>
       <Color></Color>
-      <Circuit_Name></Circuit_Name>
-      <Circuit_Number></Circuit_Number>
+      <Circuit_Name>MLB</Circuit_Name>
+      <Circuit_Number>3</Circuit_Number>
       <Dimmer></Dimmer>
       <Channel></Channel>
       <Position>MS Truss</Position>

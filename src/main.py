@@ -103,6 +103,7 @@ def convert_wattage_to_int(wattage_str):
 
 def dumpCircuit(c: circuit, prefix=""):
     print(prefix + "Circuit " + str(c.number))
+    print(prefix + "Load: " + str(c.getLoad()) + "W")
     for i in c.lightInsts:
         print(prefix + "|   " + i.UID)
 
@@ -118,18 +119,78 @@ def dump(prefix="") -> None:
         dumpMult(v, prefix=prefix)
 
 
+### Load Calc Functions ###
+
+def getAvailCirInMult(m: mult) -> list:
+    l = []
+    for k, v in m.circuits.items():
+        if v == None:
+            l.append(k)
+    return l
+
 def runLoadCalc():
     phases = {
         "x":0,
         "y":0,
         "z":0
     }
-    # put all circuits into list | remove from mult class, but keep mult parent in circuit
+    # put all circuits into dict | remove from mult class, but keep mult parent in circuit
+    circuits = {}
+    for m in mults.values():
+        for cNum in m.circuits:
+            c = m.circuits[cNum]
+            if c != None:
+                circuits.update({c:c.getLoad()})
+                m.circuits[cNum] = None
+
     # sort list based on load
+    circuits = dict(sorted(circuits.items(), key=lambda item: item[1]))
+    
     # get largest loaded circuit
-    # get available phases from mult
-    # get smallest loded availabe phase
-    # assign circuit to mult, add load to phase
+    for c, l in reversed(circuits.items()):
+        # get available circuits from mult
+        m = c.parent
+        availCirsInMult = getAvailCirInMult(m)
+
+        # get available phases from circuits
+        availPhases = {}
+        for i in availCirsInMult:
+            if i == 1 or i == 4:
+                availPhases.update({"x":phases["x"]})
+            elif i == 2 or i == 5:
+                availPhases.update({"y":phases["y"]})
+            elif i == 3 or i == 6:
+                availPhases.update({"z":phases["z"]})
+
+        # get smallest loded availabe phase
+        availPhases = dict(sorted(availPhases.items(), key=lambda item: item[1]))
+        # print("available phases:")
+        # print(availPhases)
+
+        # assign circuit to mult, add load to phase
+        selPhase = list(availPhases.keys())[0]
+        phases[selPhase] += l
+        selCircuit = None
+        if selPhase == "x":
+            if m.circuits[1] == None:
+                selCircuit = 1
+            else:
+                selCircuit = 4
+        elif selPhase == "y":
+            if m.circuits[2] == None:
+                selCircuit = 2
+            else:
+                selCircuit = 5
+        elif selPhase == "z":
+            if m.circuits[3] == None:
+                selCircuit = 3
+            else:
+                selCircuit = 6
+        c.number = selCircuit
+        m.circuits[selCircuit] = c
+
+        # print("phase loads")
+        # print(phases)
 
 instData = root[1]
 for i in reversed(instData):
@@ -173,5 +234,9 @@ print(mults)
 print("****____****____****____****")
 for i in instData:
     print(i.tag)
+
+dump()
+
+runLoadCalc()
 
 dump()
