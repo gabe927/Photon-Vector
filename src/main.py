@@ -12,10 +12,10 @@ class lightInst():
         self.instType = ""
         self.unitNumber = None
         self.load = 0
-        self.circuitName = None
-        self.circuitNumber = None
+        self.mult = None
+        self.circuit = None
 
-class circuitName():
+class mult():
     def __init__(self) -> None:
         self.name = ""
         self.circuits = {
@@ -28,7 +28,7 @@ class circuitName():
         }
         self.unnumberedLIs = []
 
-class circuitNumber():
+class circuit():
     def __init__(self) -> None:
         self.number = -1
         self.parent = None
@@ -41,7 +41,7 @@ class circuitNumber():
         return totalLoad
 
 insts = {}
-cirNames = {}
+mults = {}
 instData = root[1]
 for i in reversed(instData):
     if i.tag[:3] == "UID":
@@ -51,36 +51,36 @@ for i in reversed(instData):
                 li.UID = j.text
             elif j.tag == "Circuit_Name" and j.text != None:
                 cn = None
-                if j.text not in cirNames:
-                    cn = circuitName()
+                if j.text not in mults:
+                    cn = mult()
                     cn.name = j.text
-                    cirNames.update({j.text:cn})
+                    mults.update({j.text:cn})
                 else:
-                    cn = cirNames[j.text]
-                li.circuitName = cn
+                    cn = mults[j.text]
+                li.mult = cn
             elif j.tag == "Circuit_Number" and j.text != None:
                 cirNumb = int(j.text)
-                if li.circuitName == None:
+                if li.mult == None:
                     continue
-                circuit = li.circuitName.circuits[cirNumb]
-                if circuit == None:
-                    circuit = circuitNumber()
-                    circuit.number = cirNumb
-                    circuit.parent = li.circuitName
-                li.circuitNumber = circuit
-                circuit.lightInsts.append(li)
+                c = li.mult.circuits[cirNumb]
+                if c == None:
+                    c = circuit()
+                    c.number = cirNumb
+                    c.parent = li.mult
+                li.circuit = c
+                c.lightInsts.append(li)
 
         insts.update({li.UID:li})
         instData.remove(i)
 
 print(insts)
 print("****____****____****____****")
-print(cirNames)
+print(mults)
 # Key sort
-cirNames = dict(sorted(cirNames.items()))
+mults = dict(sorted(mults.items()))
 # Value sort
-# cirNames = dict(sorted(cirNames(), key=lambda item: item[1]))
-print(cirNames)
+# mults = dict(sorted(mults(), key=lambda item: item[1]))
+print(mults)
 print("****____****____****____****")
 for i in instData:
     print(i.tag)
