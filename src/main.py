@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 tree = ET.parse('data.xml')
 root = tree.getroot()
 
+insts = {}
 class lightInst():
     def __init__(self) -> None:
         self.UID = ""
@@ -15,6 +16,7 @@ class lightInst():
         self.mult = None
         self.circuit = None
 
+mults = {}
 class mult():
     def __init__(self) -> None:
         self.name = ""
@@ -40,8 +42,30 @@ class circuit():
             totalLoad += i.load
         return totalLoad
 
-insts = {}
-mults = {}
+# gets the mult class base on mult name, creates a new one if doesn't exist
+def getMultClass(name: str) -> mult:
+    if j.text not in mults:
+        m = mult()
+        m.name = j.text
+        mults.update({j.text:m})
+        return m
+    else:
+        return mults[j.text]
+
+# gets the circuit class based on mult class and the circuit number, creates a new one if doesn't exist
+def getCircuitClass(m: mult, cirNum: int) -> circuit:
+    c = m.circuits[cirNum]
+    if c == None:
+        c = circuit()
+        c.number = cirNum
+        c.parent = m
+        m.circuits[cirNum] = c
+    return c
+
+def addLiToCircuit(li: lightInst, c: circuit) -> None:
+    li.circuit = c
+    c.lightInsts.append(li)
+
 instData = root[1]
 for i in reversed(instData):
     if i.tag[:3] == "UID":
@@ -50,25 +74,13 @@ for i in reversed(instData):
             if j.tag == "UID":
                 li.UID = j.text
             elif j.tag == "Circuit_Name" and j.text != None:
-                cn = None
-                if j.text not in mults:
-                    cn = mult()
-                    cn.name = j.text
-                    mults.update({j.text:cn})
-                else:
-                    cn = mults[j.text]
-                li.mult = cn
+                li.mult = getMultClass(j.text)
             elif j.tag == "Circuit_Number" and j.text != None:
-                cirNumb = int(j.text)
+                cirNum = int(j.text)
                 if li.mult == None:
                     continue
-                c = li.mult.circuits[cirNumb]
-                if c == None:
-                    c = circuit()
-                    c.number = cirNumb
-                    c.parent = li.mult
-                li.circuit = c
-                c.lightInsts.append(li)
+                c = getCircuitClass(li.mult, cirNum)
+                addLiToCircuit(li, c)
 
         insts.update({li.UID:li})
         instData.remove(i)
