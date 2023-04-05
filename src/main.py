@@ -191,6 +191,11 @@ def runLoadCalc():
 
         # print("phase loads")
         # print(phases)
+    
+    print("Load Calc Done. Loads per phase:")
+    print(phases)
+    print("Total load:")
+    print(sum(phases.values()))
 
 instData = root[1]
 for i in reversed(instData):
