@@ -1,9 +1,11 @@
+import sys
 import xml.etree.ElementTree as ET
 
-tree = ET.parse('src/data.xml')
+tree = ET.parse('data.xml')
 root = tree.getroot()
 
 insts = {}
+instID = 0
 class lightInst():
     def __init__(self) -> None:
         self.UID = ""
@@ -226,7 +228,55 @@ def runLoadCalc():
     print("Total load:")
     print(sum(phases.values()))
 
-instData = root[1]
+def getUsedInsts() -> list:
+    ls = []
+    for mk, m in mults.items():
+        for ck, c in m.circuits.items():
+            if c != None:
+                for l in c.lightInsts:
+                    ls.append(l)
+    return ls
+
+
+def exportLightInsts():
+    inventory = ET.SubElement(root, "Inventory")
+    invAppStamp = ET.SubElement(inventory, "AppStamp")
+    invAppStamp.text = "Lightwright"
+
+    instData = root.find("InstrumentData")
+
+    # change AppStamp to LightWright
+    instData.find("AppStamp").text = "LightWright"
+
+    ls = getUsedInsts()    
+    
+    # build lighting instruments
+    for l in ls:
+        mainElement = ET.SubElement(instData, "UID_" + l.UID.replace('.', '_'))
+        action = ET.SubElement(mainElement, "Action")
+        action.text = "Update"
+        timeStamp = ET.SubElement(mainElement, "TimeStamp")
+        timeStamp.text = "" # TODO format the time stamp
+        appStamp = ET.SubElement(mainElement, "AppStamp")
+        appStamp.text = "AppStamp"
+        uid = ET.SubElement(mainElement, "UID")
+        uid.text = l.UID
+        lwid = ET.SubElement(mainElement, "Lightwright_ID")
+        lwid.text = str(l.LWID)
+        cirNum = ET.SubElement(mainElement, "Circuit_Number")
+        cirNum.text = str(l.circuit.number)
+    
+    ET.indent(tree, "  ")
+    tree.write("dataOut.xml")
+        
+
+instData = root.find("InstrumentData")
+
+instData.remove(instData.find("Action"))
+
+univData = root.find("UniverseSettings")
+root.remove(univData)
+
 for i in reversed(instData):
     if i.tag[:3] == "UID":
         UID = None
@@ -250,6 +300,8 @@ for i in reversed(instData):
         if AppStamp == "Vectorworks":
             li = lightInst()
             li.UID = UID
+            li.LWID = instID
+            instID += 1
             li.load = convert_wattage_to_int(Wattage)
             li.mult = getMultClass(CircuitName)
             addLiToCircuit(li, getCircuitClass(li.mult, CircuitNum))
@@ -272,5 +324,7 @@ for i in instData:
 dump()
 
 runLoadCalc()
+
+exportLightInsts()
 
 dump()
