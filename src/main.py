@@ -63,7 +63,7 @@ def getCircuitClass(m: mult, cirNum: int) -> circuit:
     if type(cirNum) is str:
         cirNum = int(cirNum)
 
-    if m is None or cirNum <= 0 or cirNum >= 7:
+    if m is None or cirNum is None or cirNum <= 0 or cirNum >= 7:
         return None
 
     c = m.circuits[cirNum]
