@@ -30,6 +30,13 @@ class mult():
         }
         self.unnumberedLIs = []
 
+    def getLoad(self):
+        totalLoad = 0
+        for i in self.circuits.values():
+            if i != None:
+                totalLoad += i.getLoad()
+        return totalLoad
+
 class circuit():
     def __init__(self) -> None:
         self.number = -1
@@ -44,6 +51,25 @@ class circuit():
 
 
 ### Processing Funcitons ###
+
+def getPhaseLoads() -> dict:
+    phases = {
+        "x":0,
+        "y":0,
+        "z":0
+    }
+
+    for mk, m in mults.items():
+        for k, v in m.circuits.items():
+            if v != None:
+                if k == 1 or k == 4:
+                    phases["x"] += v.getLoad()
+                elif k == 2 or k == 5:
+                    phases["y"] += v.getLoad()
+                elif k == 3 or k == 6:
+                    phases["z"] += v.getLoad()
+    
+    return phases
 
 # gets the mult class base on mult name, creates a new one if doesn't exist
 def getMultClass(name: str) -> mult:
@@ -109,6 +135,7 @@ def dumpCircuit(c: circuit, prefix=""):
 
 def dumpMult(m: mult, prefix="") -> None:
     print(prefix + "Mult: " + m.name)
+    print(prefix + "Load: " + str(m.getLoad()) + "W")
     for k, v in m.circuits.items():
         if v != None:
             dumpCircuit(v, prefix=prefix + "|   ")
@@ -129,6 +156,8 @@ def getAvailCirInMult(m: mult) -> list:
     return l
 
 def runLoadCalc():
+    print("Starting Load Calc. Loads per phase:")
+    print(getPhaseLoads())
     phases = {
         "x":0,
         "y":0,
