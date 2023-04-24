@@ -42,6 +42,7 @@ class mult():
 class circuit():
     def __init__(self) -> None:
         self.number = -1
+        self.origNumber = -1
         self.parent = None
         self.lightInsts = []
     
@@ -98,6 +99,7 @@ def getCircuitClass(m: mult, cirNum: int) -> circuit:
     if c == None:
         c = circuit()
         c.number = cirNum
+        c.origNumber = cirNum
         c.parent = m
         m.circuits[cirNum] = c
     return c
@@ -222,6 +224,33 @@ def runLoadCalc():
 
         # print("phase loads")
         # print(phases)
+
+    #### OCD Check ####
+    # Compare the order of the original circuits with the assigned circuits and sort similar loaded circuits
+
+    for m in mults.values():
+        loads = {}
+        for cNum in m.circuits:
+            c = m.circuits[cNum]
+            if c != None:
+                load = c.getLoad()
+                if load not in loads:
+                    loads.update({load:[]})
+                loads[load].append(c)
+        for k, v in loads.items():
+            if len(v) >= 2:
+                assignedCirNums = []
+                origCirNums = {}
+                for c in v:
+                    assignedCirNums.append(c.number)
+                    origCirNums.update({c.origNumber:c})
+                assignedCirNums = sorted(assignedCirNums)
+                sortedOrigCirNums = sorted(origCirNums)
+                for i in range(len(assignedCirNums)):
+                    cirNum = assignedCirNums[i]
+                    c = origCirNums[sortedOrigCirNums[i]]
+                    c.number = cirNum
+                    m.circuits[cirNum] = c
     
     print("Load Calc Done. Loads per phase:")
     print(phases)
@@ -321,10 +350,10 @@ print("****____****____****____****")
 for i in instData:
     print(i.tag)
 
-dump()
+# dump()
 
 runLoadCalc()
 
 exportLightInsts()
 
-dump()
+# dump()
