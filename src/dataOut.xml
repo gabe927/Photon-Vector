@@ -1,0 +1,1332 @@
+<SLData>
+  <ExportFieldList>
+    <AppStamp>Vectorworks</AppStamp>
+    <TimeStamp>20230622152133</TimeStamp>
+    <Absolute_Address>Absolute Address</Absolute_Address>
+    <Inst_Type>Instrument Type</Inst_Type>
+    <Unit_Number>Unit Number</Unit_Number>
+    <Template2>Gobo 2</Template2>
+    <Template>Gobo 1</Template>
+    <Color>Color</Color>
+    <Circuit_Name>Circuit Name</Circuit_Name>
+    <Circuit_Number>Circuit Number</Circuit_Number>
+    <Dimmer>Dimmer</Dimmer>
+    <Channel>Channel</Channel>
+    <Position>Position</Position>
+    <Wattage>Wattage</Wattage>
+    <Purpose>Purpose</Purpose>
+    <User_Field_1>User Field 1</User_Field_1>
+    <User_Field_2>User Field 2</User_Field_2>
+    <User_Field_3>User Field 3</User_Field_3>
+    <User_Field_4>User Field 4</User_Field_4>
+    <User_Field_5>User Field 5</User_Field_5>
+    <User_Field_6>User Field 6</User_Field_6>
+    <System>System</System>
+    <Mark>Mark</Mark>
+  </ExportFieldList>
+  <InstrumentData>
+    <AppStamp>LightWright</AppStamp>
+    <VWVersion>2803</VWVersion>
+    <VWBuild>684728</VWBuild>
+    <AutoRot2D>false</AutoRot2D>
+    <UID_1035_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1035.1.1.0.0</UID>
+      <Lightwright_ID>179</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1035_1_1_0_0>
+    <UID_1037_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1037.1.1.0.0</UID>
+      <Lightwright_ID>180</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1037_1_1_0_0>
+    <UID_1011_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1011.1.1.0.0</UID>
+      <Lightwright_ID>185</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1011_1_1_0_0>
+    <UID_1001_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1001.1.1.0.0</UID>
+      <Lightwright_ID>192</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1001_1_1_0_0>
+    <UID_1036_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1036.1.1.0.0</UID>
+      <Lightwright_ID>181</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1036_1_1_0_0>
+    <UID_1034_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1034.1.1.0.0</UID>
+      <Lightwright_ID>182</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1034_1_1_0_0>
+    <UID_1005_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1005.1.1.0.0</UID>
+      <Lightwright_ID>190</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1005_1_1_0_0>
+    <UID_1003_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1003.1.1.0.0</UID>
+      <Lightwright_ID>191</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1003_1_1_0_0>
+    <UID_1025_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1025.1.1.0.0</UID>
+      <Lightwright_ID>183</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1025_1_1_0_0>
+    <UID_1024_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1024.1.1.0.0</UID>
+      <Lightwright_ID>184</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1024_1_1_0_0>
+    <UID_1008_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1008.1.1.0.0</UID>
+      <Lightwright_ID>186</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1008_1_1_0_0>
+    <UID_1007_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1007.1.1.0.0</UID>
+      <Lightwright_ID>189</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1007_1_1_0_0>
+    <UID_1104_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1104.1.1.0.0</UID>
+      <Lightwright_ID>171</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1104_1_1_0_0>
+    <UID_1106_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1106.1.1.0.0</UID>
+      <Lightwright_ID>172</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1106_1_1_0_0>
+    <UID_1407_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1407.1.1.0.0</UID>
+      <Lightwright_ID>103</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1407_1_1_0_0>
+    <UID_1108_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1108.1.1.0.0</UID>
+      <Lightwright_ID>170</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1108_1_1_0_0>
+    <UID_1102_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1102.1.1.0.0</UID>
+      <Lightwright_ID>173</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1102_1_1_0_0>
+    <UID_1101_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1101.1.1.0.0</UID>
+      <Lightwright_ID>174</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1101_1_1_0_0>
+    <UID_1408_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1408.1.1.0.0</UID>
+      <Lightwright_ID>102</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1408_1_1_0_0>
+    <UID_1119_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1119.1.1.0.0</UID>
+      <Lightwright_ID>167</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1119_1_1_0_0>
+    <UID_1039_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1039.1.1.0.0</UID>
+      <Lightwright_ID>177</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1039_1_1_0_0>
+    <UID_1041_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1041.1.1.0.0</UID>
+      <Lightwright_ID>178</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1041_1_1_0_0>
+    <UID_1009_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1009.1.1.0.0</UID>
+      <Lightwright_ID>187</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1009_1_1_0_0>
+    <UID_1010_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1010.1.1.0.0</UID>
+      <Lightwright_ID>188</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1010_1_1_0_0>
+    <UID_1122_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1122.1.1.0.0</UID>
+      <Lightwright_ID>165</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1122_1_1_0_0>
+    <UID_1121_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1121.1.1.0.0</UID>
+      <Lightwright_ID>166</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1121_1_1_0_0>
+    <UID_1040_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1040.1.1.0.0</UID>
+      <Lightwright_ID>175</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1040_1_1_0_0>
+    <UID_1038_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1038.1.1.0.0</UID>
+      <Lightwright_ID>176</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1038_1_1_0_0>
+    <UID_1120_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1120.1.1.0.0</UID>
+      <Lightwright_ID>168</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1120_1_1_0_0>
+    <UID_1117_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1117.1.1.0.0</UID>
+      <Lightwright_ID>169</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1117_1_1_0_0>
+    <UID_1235_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1235.1.1.0.0</UID>
+      <Lightwright_ID>129</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1235_1_1_0_0>
+    <UID_1225_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1225.1.1.0.0</UID>
+      <Lightwright_ID>130</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1225_1_1_0_0>
+    <UID_1177_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1177.1.1.0.0</UID>
+      <Lightwright_ID>157</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1177_1_1_0_0>
+    <UID_1195_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1195.1.1.0.0</UID>
+      <Lightwright_ID>164</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1195_1_1_0_0>
+    <UID_1237_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1237.1.1.0.0</UID>
+      <Lightwright_ID>131</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1237_1_1_0_0>
+    <UID_1240_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1240.1.1.0.0</UID>
+      <Lightwright_ID>132</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1240_1_1_0_0>
+    <UID_1172_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1172.1.1.0.0</UID>
+      <Lightwright_ID>162</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1172_1_1_0_0>
+    <UID_1171_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1171.1.1.0.0</UID>
+      <Lightwright_ID>163</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1171_1_1_0_0>
+    <UID_1242_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1242.1.1.0.0</UID>
+      <Lightwright_ID>133</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1242_1_1_0_0>
+    <UID_1241_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1241.1.1.0.0</UID>
+      <Lightwright_ID>134</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1241_1_1_0_0>
+    <UID_1176_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1176.1.1.0.0</UID>
+      <Lightwright_ID>158</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1176_1_1_0_0>
+    <UID_1173_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1173.1.1.0.0</UID>
+      <Lightwright_ID>161</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1173_1_1_0_0>
+    <UID_1221_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1221.1.1.0.0</UID>
+      <Lightwright_ID>127</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1221_1_1_0_0>
+    <UID_1238_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1238.1.1.0.0</UID>
+      <Lightwright_ID>128</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1238_1_1_0_0>
+    <UID_1175_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1175.1.1.0.0</UID>
+      <Lightwright_ID>159</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1175_1_1_0_0>
+    <UID_1174_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1174.1.1.0.0</UID>
+      <Lightwright_ID>160</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1174_1_1_0_0>
+    <UID_1233_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1233.1.1.0.0</UID>
+      <Lightwright_ID>125</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1233_1_1_0_0>
+    <UID_1229_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1229.1.1.0.0</UID>
+      <Lightwright_ID>126</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1229_1_1_0_0>
+    <UID_1207_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1207.1.1.0.0</UID>
+      <Lightwright_ID>155</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1207_1_1_0_0>
+    <UID_1208_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1208.1.1.0.0</UID>
+      <Lightwright_ID>156</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1208_1_1_0_0>
+    <UID_1213_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1213.1.1.0.0</UID>
+      <Lightwright_ID>119</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1213_1_1_0_0>
+    <UID_1223_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1223.1.1.0.0</UID>
+      <Lightwright_ID>120</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1223_1_1_0_0>
+    <UID_1163_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1163.1.1.0.0</UID>
+      <Lightwright_ID>147</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1163_1_1_0_0>
+    <UID_1166_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1166.1.1.0.0</UID>
+      <Lightwright_ID>154</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1166_1_1_0_0>
+    <UID_1220_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1220.1.1.0.0</UID>
+      <Lightwright_ID>121</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1220_1_1_0_0>
+    <UID_1219_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1219.1.1.0.0</UID>
+      <Lightwright_ID>122</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1219_1_1_0_0>
+    <UID_1167_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1167.1.1.0.0</UID>
+      <Lightwright_ID>152</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1167_1_1_0_0>
+    <UID_1210_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1210.1.1.0.0</UID>
+      <Lightwright_ID>153</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1210_1_1_0_0>
+    <UID_1230_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1230.1.1.0.0</UID>
+      <Lightwright_ID>123</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1230_1_1_0_0>
+    <UID_1234_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1234.1.1.0.0</UID>
+      <Lightwright_ID>124</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1234_1_1_0_0>
+    <UID_1162_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1162.1.1.0.0</UID>
+      <Lightwright_ID>148</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1162_1_1_0_0>
+    <UID_1168_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1168.1.1.0.0</UID>
+      <Lightwright_ID>151</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1168_1_1_0_0>
+    <UID_1215_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1215.1.1.0.0</UID>
+      <Lightwright_ID>117</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1215_1_1_0_0>
+    <UID_1214_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1214.1.1.0.0</UID>
+      <Lightwright_ID>118</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1214_1_1_0_0>
+    <UID_1161_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1161.1.1.0.0</UID>
+      <Lightwright_ID>149</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1161_1_1_0_0>
+    <UID_1160_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1160.1.1.0.0</UID>
+      <Lightwright_ID>150</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1160_1_1_0_0>
+    <UID_1217_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1217.1.1.0.0</UID>
+      <Lightwright_ID>115</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1217_1_1_0_0>
+    <UID_1216_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1216.1.1.0.0</UID>
+      <Lightwright_ID>116</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1216_1_1_0_0>
+    <UID_1142_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1142.1.1.0.0</UID>
+      <Lightwright_ID>145</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1142_1_1_0_0>
+    <UID_1141_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1141.1.1.0.0</UID>
+      <Lightwright_ID>146</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1141_1_1_0_0>
+    <UID_1236_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1236.1.1.0.0</UID>
+      <Lightwright_ID>109</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1236_1_1_0_0>
+    <UID_1239_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1239.1.1.0.0</UID>
+      <Lightwright_ID>110</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1239_1_1_0_0>
+    <UID_1146_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1146.1.1.0.0</UID>
+      <Lightwright_ID>137</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1146_1_1_0_0>
+    <UID_1170_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1170.1.1.0.0</UID>
+      <Lightwright_ID>144</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1170_1_1_0_0>
+    <UID_1227_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1227.1.1.0.0</UID>
+      <Lightwright_ID>111</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1227_1_1_0_0>
+    <UID_1226_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1226.1.1.0.0</UID>
+      <Lightwright_ID>112</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1226_1_1_0_0>
+    <UID_1182_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1182.1.1.0.0</UID>
+      <Lightwright_ID>142</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1182_1_1_0_0>
+    <UID_1181_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1181.1.1.0.0</UID>
+      <Lightwright_ID>143</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1181_1_1_0_0>
+    <UID_1231_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1231.1.1.0.0</UID>
+      <Lightwright_ID>113</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1231_1_1_0_0>
+    <UID_1218_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1218.1.1.0.0</UID>
+      <Lightwright_ID>114</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1218_1_1_0_0>
+    <UID_1144_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1144.1.1.0.0</UID>
+      <Lightwright_ID>139</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1144_1_1_0_0>
+    <UID_1183_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1183.1.1.0.0</UID>
+      <Lightwright_ID>141</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1183_1_1_0_0>
+    <UID_1232_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1232.1.1.0.0</UID>
+      <Lightwright_ID>107</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1232_1_1_0_0>
+    <UID_1228_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1228.1.1.0.0</UID>
+      <Lightwright_ID>108</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1228_1_1_0_0>
+    <UID_1158_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1158.1.1.0.0</UID>
+      <Lightwright_ID>136</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1158_1_1_0_0>
+    <UID_1143_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1143.1.1.0.0</UID>
+      <Lightwright_ID>140</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1143_1_1_0_0>
+    <UID_1145_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1145.1.1.0.0</UID>
+      <Lightwright_ID>138</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1145_1_1_0_0>
+    <UID_1243_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1243.1.1.0.0</UID>
+      <Lightwright_ID>104</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1243_1_1_0_0>
+    <UID_1224_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1224.1.1.0.0</UID>
+      <Lightwright_ID>105</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1224_1_1_0_0>
+    <UID_1222_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1222.1.1.0.0</UID>
+      <Lightwright_ID>106</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1222_1_1_0_0>
+    <UID_1159_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1159.1.1.0.0</UID>
+      <Lightwright_ID>135</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1159_1_1_0_0>
+    <UID_1547_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1547.1.1.0.0</UID>
+      <Lightwright_ID>18</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1547_1_1_0_0>
+    <UID_1550_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1550.1.1.0.0</UID>
+      <Lightwright_ID>19</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1550_1_1_0_0>
+    <UID_1548_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1548.1.1.0.0</UID>
+      <Lightwright_ID>20</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1548_1_1_0_0>
+    <UID_1549_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1549.1.1.0.0</UID>
+      <Lightwright_ID>29</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1549_1_1_0_0>
+    <UID_1349_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1349.1.1.0.0</UID>
+      <Lightwright_ID>88</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1349_1_1_0_0>
+    <UID_1350_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1350.1.1.0.0</UID>
+      <Lightwright_ID>89</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1350_1_1_0_0>
+    <UID_1351_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1351.1.1.0.0</UID>
+      <Lightwright_ID>90</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1351_1_1_0_0>
+    <UID_1345_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1345.1.1.0.0</UID>
+      <Lightwright_ID>91</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1345_1_1_0_0>
+    <UID_1556_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1556.1.1.0.0</UID>
+      <Lightwright_ID>24</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1556_1_1_0_0>
+    <UID_1555_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1555.1.1.0.0</UID>
+      <Lightwright_ID>25</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1555_1_1_0_0>
+    <UID_1397_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1397.1.1.0.0</UID>
+      <Lightwright_ID>83</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1397_1_1_0_0>
+    <UID_1581_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1581.1.1.0.0</UID>
+      <Lightwright_ID>79</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1581_1_1_0_0>
+    <UID_1583_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1583.1.1.0.0</UID>
+      <Lightwright_ID>81</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1583_1_1_0_0>
+    <UID_1400_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1400.1.1.0.0</UID>
+      <Lightwright_ID>77</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1400_1_1_0_0>
+    <UID_1399_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1399.1.1.0.0</UID>
+      <Lightwright_ID>78</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1399_1_1_0_0>
+    <UID_1398_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1398.1.1.0.0</UID>
+      <Lightwright_ID>80</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1398_1_1_0_0>
+    <UID_1577_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1577.1.1.0.0</UID>
+      <Lightwright_ID>26</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1577_1_1_0_0>
+    <UID_1582_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1582.1.1.0.0</UID>
+      <Lightwright_ID>27</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1582_1_1_0_0>
+    <UID_1572_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1572.1.1.0.0</UID>
+      <Lightwright_ID>82</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1572_1_1_0_0>
+    <UID_1352_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1352.1.1.0.0</UID>
+      <Lightwright_ID>84</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1352_1_1_0_0>
+    <UID_1353_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1353.1.1.0.0</UID>
+      <Lightwright_ID>85</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1353_1_1_0_0>
+    <UID_1355_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1355.1.1.0.0</UID>
+      <Lightwright_ID>86</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1355_1_1_0_0>
+    <UID_1354_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1354.1.1.0.0</UID>
+      <Lightwright_ID>87</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1354_1_1_0_0>
+    <UID_1553_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1553.1.1.0.0</UID>
+      <Lightwright_ID>15</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1553_1_1_0_0>
+    <UID_1551_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1551.1.1.0.0</UID>
+      <Lightwright_ID>16</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1551_1_1_0_0>
+    <UID_1554_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1554.1.1.0.0</UID>
+      <Lightwright_ID>17</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1554_1_1_0_0>
+    <UID_1552_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1552.1.1.0.0</UID>
+      <Lightwright_ID>28</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1552_1_1_0_0>
+    <UID_1403_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1403.1.1.0.0</UID>
+      <Lightwright_ID>71</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1403_1_1_0_0>
+    <UID_1402_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1402.1.1.0.0</UID>
+      <Lightwright_ID>73</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1402_1_1_0_0>
+    <UID_1401_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1401.1.1.0.0</UID>
+      <Lightwright_ID>75</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1401_1_1_0_0>
+    <UID_1558_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1558.1.1.0.0</UID>
+      <Lightwright_ID>21</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1558_1_1_0_0>
+    <UID_1557_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1557.1.1.0.0</UID>
+      <Lightwright_ID>22</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1557_1_1_0_0>
+    <UID_1404_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1404.1.1.0.0</UID>
+      <Lightwright_ID>69</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1404_1_1_0_0>
+    <UID_1574_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1574.1.1.0.0</UID>
+      <Lightwright_ID>72</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1574_1_1_0_0>
+    <UID_1575_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1575.1.1.0.0</UID>
+      <Lightwright_ID>74</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1575_1_1_0_0>
+    <UID_1578_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1578.1.1.0.0</UID>
+      <Lightwright_ID>76</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1578_1_1_0_0>
+    <UID_1576_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1576.1.1.0.0</UID>
+      <Lightwright_ID>23</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1576_1_1_0_0>
+    <UID_1579_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1579.1.1.0.0</UID>
+      <Lightwright_ID>70</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1579_1_1_0_0>
+    <UID_1534_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1534.1.1.0.0</UID>
+      <Lightwright_ID>30</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1534_1_1_0_0>
+    <UID_1530_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1530.1.1.0.0</UID>
+      <Lightwright_ID>31</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1530_1_1_0_0>
+    <UID_1531_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1531.1.1.0.0</UID>
+      <Lightwright_ID>32</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1531_1_1_0_0>
+    <UID_1533_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1533.1.1.0.0</UID>
+      <Lightwright_ID>33</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1533_1_1_0_0>
+    <UID_1532_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1532.1.1.0.0</UID>
+      <Lightwright_ID>34</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1532_1_1_0_0>
+    <UID_1519_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1519.1.1.0.0</UID>
+      <Lightwright_ID>40</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1519_1_1_0_0>
+    <UID_1494_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1494.1.1.0.0</UID>
+      <Lightwright_ID>60</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1494_1_1_0_0>
+    <UID_1491_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1491.1.1.0.0</UID>
+      <Lightwright_ID>61</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1491_1_1_0_0>
+    <UID_1462_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1462.1.1.0.0</UID>
+      <Lightwright_ID>62</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1462_1_1_0_0>
+    <UID_1515_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1515.1.1.0.0</UID>
+      <Lightwright_ID>48</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1515_1_1_0_0>
+    <UID_1514_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1514.1.1.0.0</UID>
+      <Lightwright_ID>49</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1514_1_1_0_0>
+    <UID_1496_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1496.1.1.0.0</UID>
+      <Lightwright_ID>50</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1496_1_1_0_0>
+    <UID_1489_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1489.1.1.0.0</UID>
+      <Lightwright_ID>57</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1489_1_1_0_0>
+    <UID_1492_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1492.1.1.0.0</UID>
+      <Lightwright_ID>58</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1492_1_1_0_0>
+    <UID_1495_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1495.1.1.0.0</UID>
+      <Lightwright_ID>59</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1495_1_1_0_0>
+    <UID_1509_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1509.1.1.0.0</UID>
+      <Lightwright_ID>46</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1509_1_1_0_0>
+    <UID_1511_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1511.1.1.0.0</UID>
+      <Lightwright_ID>47</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1511_1_1_0_0>
+    <UID_1487_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1487.1.1.0.0</UID>
+      <Lightwright_ID>54</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1487_1_1_0_0>
+    <UID_1490_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1490.1.1.0.0</UID>
+      <Lightwright_ID>55</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1490_1_1_0_0>
+    <UID_1493_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1493.1.1.0.0</UID>
+      <Lightwright_ID>56</Lightwright_ID>
+      <Circuit_Number>1</Circuit_Number>
+    </UID_1493_1_1_0_0>
+    <UID_1488_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1488.1.1.0.0</UID>
+      <Lightwright_ID>51</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1488_1_1_0_0>
+    <UID_1486_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1486.1.1.0.0</UID>
+      <Lightwright_ID>52</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1486_1_1_0_0>
+    <UID_1485_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1485.1.1.0.0</UID>
+      <Lightwright_ID>53</Lightwright_ID>
+      <Circuit_Number>2</Circuit_Number>
+    </UID_1485_1_1_0_0>
+    <UID_1529_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1529.1.1.0.0</UID>
+      <Lightwright_ID>35</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1529_1_1_0_0>
+    <UID_1527_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1527.1.1.0.0</UID>
+      <Lightwright_ID>36</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1527_1_1_0_0>
+    <UID_1526_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1526.1.1.0.0</UID>
+      <Lightwright_ID>37</Lightwright_ID>
+      <Circuit_Number>3</Circuit_Number>
+    </UID_1526_1_1_0_0>
+    <UID_1528_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1528.1.1.0.0</UID>
+      <Lightwright_ID>38</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1528_1_1_0_0>
+    <UID_1525_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1525.1.1.0.0</UID>
+      <Lightwright_ID>39</Lightwright_ID>
+      <Circuit_Number>4</Circuit_Number>
+    </UID_1525_1_1_0_0>
+    <UID_1517_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1517.1.1.0.0</UID>
+      <Lightwright_ID>41</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1517_1_1_0_0>
+    <UID_1508_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1508.1.1.0.0</UID>
+      <Lightwright_ID>42</Lightwright_ID>
+      <Circuit_Number>5</Circuit_Number>
+    </UID_1508_1_1_0_0>
+    <UID_1516_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1516.1.1.0.0</UID>
+      <Lightwright_ID>43</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1516_1_1_0_0>
+    <UID_1512_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1512.1.1.0.0</UID>
+      <Lightwright_ID>44</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1512_1_1_0_0>
+    <UID_1513_1_1_0_0>
+      <Action>Update</Action>
+      <TimeStamp />
+      <AppStamp>AppStamp</AppStamp>
+      <UID>1513.1.1.0.0</UID>
+      <Lightwright_ID>45</Lightwright_ID>
+      <Circuit_Number>6</Circuit_Number>
+    </UID_1513_1_1_0_0>
+  </InstrumentData>
+  <Inventory>
+    <AppStamp>Lightwright</AppStamp>
+  </Inventory>
+</SLData>

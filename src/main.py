@@ -291,12 +291,16 @@ class circutBalancer():
             cirNum.text = str(l.circuit.number)
         
         ET.indent(self.tree, "  ")
-        self.tree.write("dataOut.xml")
+        if self.xmlPath == "data.xml":
+            self.tree.write("dataOut.xml")
+        else:
+            self.tree.write(self.xmlPath)
 
 
 
-    def run(self):
-        self.tree = ET.parse('data.xml')
+    def run(self, xmlPath = "data.xml"):
+        self.xmlPath = xmlPath
+        self.tree = ET.parse(self.xmlPath)
         self.root = self.tree.getroot()
 
         self.insts = {}
@@ -364,4 +368,4 @@ class circutBalancer():
 
 if __name__ == "__main__":
     cb = circutBalancer()
-    cb.run()
+    cb.run("asdf.xml")
